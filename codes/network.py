@@ -237,7 +237,7 @@ class ResNet(nn.Module):
 
 
 class CNN_with_decoder(nn.Module):  # 虽然图片是黑白的，但还是有3个channel的
-    def __init__(self):
+    def __init__(self, decoder_output_dim=3):
         super().__init__()
 
         self.layer1 = nn.Sequential(
@@ -261,8 +261,13 @@ class CNN_with_decoder(nn.Module):  # 虽然图片是黑白的，但还是有3�
             nn.LeakyReLU(negative_slope=0.01, inplace=True), nn.MaxPool2d((2, 1), stride=(2, 1)),
         )
         self.decoder = nn.Sequential(
-            nn.Linear(18432, 1),
-            nn.ReLU()
+            nn.Linear(184320, 1024),
+            nn.ReLU(),
+            nn.Linear(1024, 256),
+            nn.ReLU(),
+            nn.Linear(256, 64),
+            nn.ReLU(),
+            nn.Linear(64, decoder_output_dim)
         )
 
         self.fc1 = nn.Sequential(
@@ -287,5 +292,20 @@ class CNN_with_decoder(nn.Module):  # 虽然图片是黑白的，但还是有3�
         x = x.view(-1, 184320)
         x = self.fc1(x)
         x = self.softmax(x)
+
+        return x
+
+
+class Decoder(CNN_with_decoder):
+
+    def forward(self, x):
+        x = x.reshape(-1, 3, 96, 180)
+        x = self.layer1(x)
+        x = self.layer2(x)
+        x = self.layer3(x)
+        x = self.layer4(x)
+
+        x = x.view(-1, 184320)
+        x = self.decoder(x)
 
         return x

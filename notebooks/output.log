@@ -1,0 +1,40 @@
+Epoch [0][10]	 Batch [0][589]	 Training Loss 0.7328	 Accuracy 0.5547	 Time(Iter) 0.5458
+Epoch [0][10]	 Batch [100][589]	 Training Loss 0.8433	 Accuracy 0.4698	 Time(Iter) 0.3510
+Epoch [0][10]	 Batch [200][589]	 Training Loss 0.8401	 Accuracy 0.4731	 Time(Iter) 0.3622
+Epoch [0][10]	 Batch [300][589]	 Training Loss 0.8412	 Accuracy 0.4720	 Time(Iter) 0.3629
+Epoch [0][10]	 Batch [400][589]	 Training Loss 0.8430	 Accuracy 0.4702	 Time(Iter) 0.3795
+Epoch [0][10]	 Batch [500][589]	 Training Loss 0.8417	 Accuracy 0.4715	 Time(Iter) 0.3739
+Epoch [0]	 Average training loss 0.8432	 Average training accuracy 0.4700
+Epoch [0]	 Average validation loss 0.8456	 Average validation accuracy 0.4676
+Epoch [1][10]	 Batch [0][589]	 Training Loss 0.8836	 Accuracy 0.4297	 Time(Iter) 0.3568
+Epoch [1][10]	 Batch [100][589]	 Training Loss 0.8447	 Accuracy 0.4685	 Time(Iter) 0.3557
+Epoch [1][10]	 Batch [200][589]	 Training Loss 0.8449	 Accuracy 0.4684	 Time(Iter) 0.3587
+Epoch [1][10]	 Batch [300][589]	 Training Loss 0.8457	 Accuracy 0.4676	 Time(Iter) 0.3704
+Epoch [1][10]	 Batch [400][589]	 Training Loss 0.8438	 Accuracy 0.4695	 Time(Iter) 0.3606
+Epoch [1][10]	 Batch [500][589]	 Training Loss 0.8432	 Accuracy 0.4701	 Time(Iter) 0.3659
+Epoch [1]	 Average training loss 0.8430	 Average training accuracy 0.4702
+Epoch [1]	 Average validation loss 0.8456	 Average validation accuracy 0.4676
+Epoch [2][10]	 Batch [0][589]	 Training Loss 0.8054	 Accuracy 0.5078	 Time(Iter) 0.3605
+Epoch [2][10]	 Batch [100][589]	 Training Loss 0.8403	 Accuracy 0.4729	 Time(Iter) 0.3706
+Epoch [2][10]	 Batch [200][589]	 Training Loss 0.8409	 Accuracy 0.4724	 Time(Iter) 0.3665
+Epoch [2][10]	 Batch [300][589]	 Training Loss 0.8440	 Accuracy 0.4693	 Time(Iter) 0.3677
+Epoch [2][10]	 Batch [400][589]	 Training Loss 0.8443	 Accuracy 0.4690	 Time(Iter) 0.3681
+Epoch [2][10]	 Batch [500][589]	 Training Loss 0.8435	 Accuracy 0.4698	 Time(Iter) 0.3677
+Epoch [2]	 Average training loss 0.8432	 Average training accuracy 0.4700
+Epoch [2]	 Average validation loss 0.8456	 Average validation accuracy 0.4676
+Epoch [3][10]	 Batch [0][589]	 Training Loss 0.8758	 Accuracy 0.4375	 Time(Iter) 0.3769
+Epoch [3][10]	 Batch [100][589]	 Training Loss 0.8386	 Accuracy 0.4746	 Time(Iter) 0.3649
+Epoch [3][10]	 Batch [200][589]	 Training Loss 0.8398	 Accuracy 0.4734	 Time(Iter) 0.3843
+Epoch [3][10]	 Batch [300][589]	 Training Loss 0.8434	 Accuracy 0.4699	 Time(Iter) 0.3614
+Epoch [3][10]	 Batch [400][589]	 Training Loss 0.8445	 Accuracy 0.4688	 Time(Iter) 0.3595
+Epoch [3][10]	 Batch [500][589]	 Training Loss 0.8443	 Accuracy 0.4689	 Time(Iter) 0.3637
+Epoch [3]	 Average training loss 0.8433	 Average training accuracy 0.4700
+Epoch [3]	 Average validation loss 0.8456	 Average validation accuracy 0.4676
+Epoch [4][10]	 Batch [0][589]	 Training Loss 0.8211	 Accuracy 0.4922	 Time(Iter) 0.3630
+Epoch [4][10]	 Batch [100][589]	 Training Loss 0.8408	 Accuracy 0.4725	 Time(Iter) 0.3655
+Epoch [4][10]	 Batch [200][589]	 Training Loss 0.8426	 Accuracy 0.4707	 Time(Iter) 0.3733
+Epoch [4][10]	 Batch [300][589]	 Training Loss 0.8417	 Accuracy 0.4716	 Time(Iter) 0.3627
+Epoch [4][10]	 Batch [400][589]	 Training Loss 0.8416	 Accuracy 0.4716	 Time(Iter) 0.3713
+Epoch [4][10]	 Batch [500][589]	 Training Loss 0.8425	 Accuracy 0.4708	 Time(Iter) 0.3734
+Epoch [4]	 Average training loss 0.8434	 Average training accuracy 0.4699
+Epoch [4]	 Average validation loss 0.8456	 Average validation accuracy 0.4676
